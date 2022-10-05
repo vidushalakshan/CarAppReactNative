@@ -8,12 +8,12 @@ export default function Login() {
         <NativeBaseProvider>
             <VStack space={4} alignItems="center">
                 <Box width={'32'} height={'12'} alignItems={"center"} justifyContent="center" mt={"16"}>
-                    <Text style={{ color: "#192a56", fontSize: 34, fontStyle: "normal", fontWeight: "600" }}>Login</Text>
+                    <Text style={{ color: "5800FF", fontSize: 34, fontStyle: "normal", fontWeight: "600" }}>Login</Text>
                 </Box>
 
                 <Box mt={"12"}>
                     <Input variant="rounded" placeholder="Username" width={'80%'} />
-                    <Input mt={"1"} variant="rounded" placeholder="Password" width={'80%'} />
+                    <Input mt={"5"} variant="rounded" placeholder="Password" width={'80%'} />
                 </Box>
 
                 <Button mt={'10%'} size="md" variant="outline" colorScheme="success" width={'30%'}
